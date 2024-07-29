@@ -20,6 +20,7 @@ namespace BlazingPizza
 
         public int SpecialId { get; set; }
 
+        // NOTE: why this doesn't use Size { get; set; } = 12;
         public int Size { get; set; }
 
         public List<PizzaTopping> Toppings { get; set; }
